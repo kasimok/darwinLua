@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import liblua
 
 class ViewController: UIViewController {
 

@@ -51,6 +51,7 @@
 		9AC7BA3B2BBD259D00340AE8 /* lua.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC7BA382BBD259D00340AE8 /* lua.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AFD1EE82BBD33FE005F2DDD /* luaconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFD1EE72BBD33FE005F2DDD /* luaconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AFD1F1C2BBD3C83005F2DDD /* lualib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFD1F1B2BBD3C83005F2DDD /* lualib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AFD1F1F2BBD3FDB005F2DDD /* liblua.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFD1F1D2BBD3DC4005F2DDD /* liblua.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -248,6 +249,7 @@
 			files = (
 				9AFD1EE82BBD33FE005F2DDD /* luaconf.h in Headers */,
 				9AC7BA3A2BBD259D00340AE8 /* lauxlib.h in Headers */,
+				9AFD1F1F2BBD3FDB005F2DDD /* liblua.h in Headers */,
 				9AC7BA3B2BBD259D00340AE8 /* lua.h in Headers */,
 				9AFD1F1C2BBD3C83005F2DDD /* lualib.h in Headers */,
 			);

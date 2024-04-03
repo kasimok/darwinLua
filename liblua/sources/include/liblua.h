@@ -7,9 +7,10 @@
 
 #ifndef liblua_h
 #define liblua_h
-#include "luaconf.h"
-#include "lauxlib.h"
-#include "lua.h"
-#include "lualib.h"
+
+#include <liblua/luaconf.h>
+#include <liblua/lauxlib.h>
+#include <liblua/lua.h>
+#include <liblua/lualib.h>
 
 #endif /* liblua_h */
