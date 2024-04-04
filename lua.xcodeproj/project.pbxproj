@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AC7B9472BBD03FE00340AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B9462BBD03FE00340AE8 /* AppDelegate.swift */; };
-		9AC7B9492BBD03FE00340AE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B9482BBD03FE00340AE8 /* SceneDelegate.swift */; };
-		9AC7B94B2BBD03FE00340AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B94A2BBD03FE00340AE8 /* ViewController.swift */; };
-		9AC7B94E2BBD03FE00340AE8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7B94D2BBD03FE00340AE8 /* Base */; };
-		9AC7B9502BBD03FF00340AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7B94F2BBD03FF00340AE8 /* Assets.xcassets */; };
-		9AC7B9532BBD03FF00340AE8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7B9522BBD03FF00340AE8 /* Base */; };
-		9AC7B97F2BBD1DD600340AE8 /* liblua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC7B96A2BBD1DD600340AE8 /* liblua.framework */; };
-		9AC7B9802BBD1DD600340AE8 /* liblua.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9AC7B96A2BBD1DD600340AE8 /* liblua.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9AC7B9C42BBD1E6F00340AE8 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B9882BBD1E6E00340AE8 /* lauxlib.c */; };
 		9AC7B9C62BBD1E6F00340AE8 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B98A2BBD1E6E00340AE8 /* loadlib.c */; };
 		9AC7B9CB2BBD1E6F00340AE8 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B98F2BBD1E6E00340AE8 /* lgc.c */; };
@@ -52,10 +44,17 @@
 		9AFD1EE82BBD33FE005F2DDD /* luaconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFD1EE72BBD33FE005F2DDD /* luaconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AFD1F1C2BBD3C83005F2DDD /* lualib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFD1F1B2BBD3C83005F2DDD /* lualib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AFD1F1F2BBD3FDB005F2DDD /* liblua.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFD1F1D2BBD3DC4005F2DDD /* liblua.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AFD1F272BBE244B005F2DDD /* luaExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD1F262BBE244B005F2DDD /* luaExampleApp.swift */; };
+		9AFD1F292BBE244B005F2DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD1F282BBE244B005F2DDD /* ContentView.swift */; };
+		9AFD1F2B2BBE244C005F2DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD1F2A2BBE244C005F2DDD /* Assets.xcassets */; };
+		9AFD1F2F2BBE244C005F2DDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD1F2E2BBE244C005F2DDD /* Preview Assets.xcassets */; };
+		9AFD1F342BBE24A0005F2DDD /* liblua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC7B96A2BBD1DD600340AE8 /* liblua.framework */; };
+		9AFD1F352BBE24A0005F2DDD /* liblua.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC7B96A2BBD1DD600340AE8 /* liblua.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9AFD1F562BBE2CFF005F2DDD /* LuaUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD1F552BBE2CFF005F2DDD /* LuaUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9AC7B97D2BBD1DD600340AE8 /* PBXContainerItemProxy */ = {
+		9AFD1F362BBE24A0005F2DDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9AC7B93B2BBD03FE00340AE8 /* Project object */;
 			proxyType = 1;
@@ -65,28 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9AC7B95D2BBD043A00340AE8 /* Embed Libraries */ = {
+		9AFD1F382BBE24A0005F2DDD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9AC7B9802BBD1DD600340AE8 /* liblua.framework in Embed Libraries */,
+				9AFD1F352BBE24A0005F2DDD /* liblua.framework in Embed Frameworks */,
 			);
-			name = "Embed Libraries";
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9AC7B9432BBD03FE00340AE8 /* lua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lua.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC7B9462BBD03FE00340AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AC7B9482BBD03FE00340AE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9AC7B94A2BBD03FE00340AE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9AC7B94D2BBD03FE00340AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AC7B94F2BBD03FF00340AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9AC7B9522BBD03FF00340AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9AC7B9542BBD03FF00340AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC7B96A2BBD1DD600340AE8 /* liblua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = liblua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC7B9882BBD1E6E00340AE8 /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
 		9AC7B98A2BBD1E6E00340AE8 /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
@@ -126,21 +117,28 @@
 		9AFD1F1B2BBD3C83005F2DDD /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
 		9AFD1F1D2BBD3DC4005F2DDD /* liblua.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liblua.h; sourceTree = "<group>"; };
 		9AFD1F1E2BBD3DE4005F2DDD /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		9AFD1F242BBE244B005F2DDD /* luaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFD1F262BBE244B005F2DDD /* luaExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luaExampleApp.swift; sourceTree = "<group>"; };
+		9AFD1F282BBE244B005F2DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AFD1F2A2BBE244C005F2DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AFD1F2C2BBE244C005F2DDD /* luaExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = luaExample.entitlements; sourceTree = "<group>"; };
+		9AFD1F2E2BBE244C005F2DDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AFD1F552BBE2CFF005F2DDD /* LuaUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuaUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9AC7B9402BBD03FE00340AE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AC7B97F2BBD1DD600340AE8 /* liblua.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9AC7B9672BBD1DD600340AE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD1F212BBE244B005F2DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFD1F342BBE24A0005F2DDD /* liblua.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,33 +148,20 @@
 		9AC7B93A2BBD03FE00340AE8 = {
 			isa = PBXGroup;
 			children = (
-				9AC7B9452BBD03FE00340AE8 /* lua */,
 				9AC7B96B2BBD1DD600340AE8 /* liblua */,
+				9AFD1F252BBE244B005F2DDD /* luaExample */,
 				9AC7B9442BBD03FE00340AE8 /* Products */,
+				9AFD1F332BBE24A0005F2DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9AC7B9442BBD03FE00340AE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AC7B9432BBD03FE00340AE8 /* lua.app */,
 				9AC7B96A2BBD1DD600340AE8 /* liblua.framework */,
+				9AFD1F242BBE244B005F2DDD /* luaExample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9AC7B9452BBD03FE00340AE8 /* lua */ = {
-			isa = PBXGroup;
-			children = (
-				9AC7B9462BBD03FE00340AE8 /* AppDelegate.swift */,
-				9AC7B9482BBD03FE00340AE8 /* SceneDelegate.swift */,
-				9AC7B94A2BBD03FE00340AE8 /* ViewController.swift */,
-				9AC7B94C2BBD03FE00340AE8 /* Main.storyboard */,
-				9AC7B94F2BBD03FF00340AE8 /* Assets.xcassets */,
-				9AC7B9512BBD03FF00340AE8 /* LaunchScreen.storyboard */,
-				9AC7B9542BBD03FF00340AE8 /* Info.plist */,
-			);
-			path = lua;
 			sourceTree = "<group>";
 		};
 		9AC7B96B2BBD1DD600340AE8 /* liblua */ = {
@@ -240,6 +225,34 @@
 			path = include;
 			sourceTree = "<group>";
 		};
+		9AFD1F252BBE244B005F2DDD /* luaExample */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD1F262BBE244B005F2DDD /* luaExampleApp.swift */,
+				9AFD1F282BBE244B005F2DDD /* ContentView.swift */,
+				9AFD1F552BBE2CFF005F2DDD /* LuaUtils.swift */,
+				9AFD1F2A2BBE244C005F2DDD /* Assets.xcassets */,
+				9AFD1F2C2BBE244C005F2DDD /* luaExample.entitlements */,
+				9AFD1F2D2BBE244C005F2DDD /* Preview Content */,
+			);
+			path = luaExample;
+			sourceTree = "<group>";
+		};
+		9AFD1F2D2BBE244C005F2DDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD1F2E2BBE244C005F2DDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AFD1F332BBE24A0005F2DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -258,25 +271,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9AC7B9422BBD03FE00340AE8 /* lua */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9AC7B9572BBD03FF00340AE8 /* Build configuration list for PBXNativeTarget "lua" */;
-			buildPhases = (
-				9AC7B93F2BBD03FE00340AE8 /* Sources */,
-				9AC7B9402BBD03FE00340AE8 /* Frameworks */,
-				9AC7B9412BBD03FE00340AE8 /* Resources */,
-				9AC7B95D2BBD043A00340AE8 /* Embed Libraries */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9AC7B97E2BBD1DD600340AE8 /* PBXTargetDependency */,
-			);
-			name = lua;
-			productName = lua;
-			productReference = 9AC7B9432BBD03FE00340AE8 /* lua.app */;
-			productType = "com.apple.product-type.application";
-		};
 		9AC7B9692BBD1DD600340AE8 /* liblua */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AC7B9812BBD1DD600340AE8 /* Build configuration list for PBXNativeTarget "liblua" */;
@@ -295,6 +289,25 @@
 			productReference = 9AC7B96A2BBD1DD600340AE8 /* liblua.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9AFD1F232BBE244B005F2DDD /* luaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFD1F302BBE244C005F2DDD /* Build configuration list for PBXNativeTarget "luaExample" */;
+			buildPhases = (
+				9AFD1F202BBE244B005F2DDD /* Sources */,
+				9AFD1F212BBE244B005F2DDD /* Frameworks */,
+				9AFD1F222BBE244B005F2DDD /* Resources */,
+				9AFD1F382BBE24A0005F2DDD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFD1F372BBE24A0005F2DDD /* PBXTargetDependency */,
+			);
+			name = luaExample;
+			productName = luaExample;
+			productReference = 9AFD1F242BBE244B005F2DDD /* luaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -305,11 +318,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					9AC7B9422BBD03FE00340AE8 = {
-						CreatedOnToolsVersion = 15.3;
-						LastSwiftMigration = 1530;
-					};
 					9AC7B9692BBD1DD600340AE8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9AFD1F232BBE244B005F2DDD = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -327,23 +339,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9AC7B9422BBD03FE00340AE8 /* lua */,
 				9AC7B9692BBD1DD600340AE8 /* liblua */,
+				9AFD1F232BBE244B005F2DDD /* luaExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9AC7B9412BBD03FE00340AE8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AC7B9502BBD03FF00340AE8 /* Assets.xcassets in Resources */,
-				9AC7B9532BBD03FF00340AE8 /* Base in Resources */,
-				9AC7B94E2BBD03FE00340AE8 /* Base in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9AC7B9682BBD1DD600340AE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,19 +353,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		9AC7B93F2BBD03FE00340AE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		9AFD1F222BBE244B005F2DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC7B94B2BBD03FE00340AE8 /* ViewController.swift in Sources */,
-				9AC7B9472BBD03FE00340AE8 /* AppDelegate.swift in Sources */,
-				9AC7B9492BBD03FE00340AE8 /* SceneDelegate.swift in Sources */,
+				9AFD1F2F2BBE244C005F2DDD /* Preview Assets.xcassets in Resources */,
+				9AFD1F2B2BBE244C005F2DDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		9AC7B9662BBD1DD600340AE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,34 +404,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AFD1F202BBE244B005F2DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFD1F292BBE244B005F2DDD /* ContentView.swift in Sources */,
+				9AFD1F562BBE2CFF005F2DDD /* LuaUtils.swift in Sources */,
+				9AFD1F272BBE244B005F2DDD /* luaExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9AC7B97E2BBD1DD600340AE8 /* PBXTargetDependency */ = {
+		9AFD1F372BBE24A0005F2DDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9AC7B9692BBD1DD600340AE8 /* liblua */;
-			targetProxy = 9AC7B97D2BBD1DD600340AE8 /* PBXContainerItemProxy */;
+			targetProxy = 9AFD1F362BBE24A0005F2DDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9AC7B94C2BBD03FE00340AE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9AC7B94D2BBD03FE00340AE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9AC7B9512BBD03FF00340AE8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9AC7B9522BBD03FF00340AE8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9AC7B9552BBD03FF00340AE8 /* Debug */ = {
@@ -552,75 +544,6 @@
 			};
 			name = Release;
 		};
-		9AC7B9582BBD03FF00340AE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T2DT6C6U3X;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = lua/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/lua",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.jailBreak.lua;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9AC7B9592BBD03FF00340AE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T2DT6C6U3X;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = lua/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/lua",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.jailBreak.lua;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		9AC7B9822BBD1DD600340AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -634,8 +557,37 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvos*]" = (
+					"$(inherited)",
+					LUA_USE_IOS,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvsimulator*]" = (
+					"$(inherited)",
+					LUA_USE_IOS,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					LUA_USE_IOS,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					LUA_USE_IOS,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=macosx*]" = "$(inherited)";
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=watchos*]" = (
+					"$(inherited)",
+					LUA_USE_IOS,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=watchsimulator*]" = (
+					"$(inherited)",
+					LUA_USE_IOS,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=xros*]" = (
+					"$(inherited)",
+					LUA_USE_IOS,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=xrsimulator*]" = (
 					"$(inherited)",
 					LUA_USE_IOS,
 				);
@@ -659,16 +611,16 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.jailBreak.liblua;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.liblua;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
 				TVOS_DEPLOYMENT_TARGET = 14.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -688,7 +640,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = LUA_USE_IOS;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvos*]" = LUA_USE_IOS;
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvsimulator*]" = LUA_USE_IOS;
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphoneos*]" = LUA_USE_IOS;
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphonesimulator*]" = LUA_USE_IOS;
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=macosx*]" = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=watchos*]" = LUA_USE_IOS;
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=watchsimulator*]" = LUA_USE_IOS;
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=xros*]" = LUA_USE_IOS;
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=xrsimulator*]" = LUA_USE_IOS;
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -709,19 +670,97 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.jailBreak.liblua;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.liblua;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
 				TVOS_DEPLOYMENT_TARGET = 14.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AFD1F312BBE244C005F2DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = luaExample/luaExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"luaExample/Preview Content\"";
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.luaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+			};
+			name = Debug;
+		};
+		9AFD1F322BBE244C005F2DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = luaExample/luaExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"luaExample/Preview Content\"";
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0x67.luaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
 			};
 			name = Release;
 		};
@@ -737,20 +776,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AC7B9572BBD03FF00340AE8 /* Build configuration list for PBXNativeTarget "lua" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9AC7B9582BBD03FF00340AE8 /* Debug */,
-				9AC7B9592BBD03FF00340AE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9AC7B9812BBD1DD600340AE8 /* Build configuration list for PBXNativeTarget "liblua" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AC7B9822BBD1DD600340AE8 /* Debug */,
 				9AC7B9832BBD1DD600340AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFD1F302BBE244C005F2DDD /* Build configuration list for PBXNativeTarget "luaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFD1F312BBE244C005F2DDD /* Debug */,
+				9AFD1F322BBE244C005F2DDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
