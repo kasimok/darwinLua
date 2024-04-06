@@ -4,20 +4,73 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>liblua.xcscheme_^#shared#^_</key>
+		<key>liblua-ios.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>liblua-macos.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>luaExample.xcscheme_^#shared#^_</key>
+		<key>liblua-tvos.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>liblua-visionOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>liblua-watchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>luaExample.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>luaExampleWatch Watch App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9A6FE2722BBFF7EC003A0C4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A6FE2A02BBFF866003A0C4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A6FE2CE2BBFF869003A0C4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A6FE2FC2BBFF86C003A0C4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9AC7B9692BBD1DD600340AE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9AFD1F232BBE244B005F2DDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
